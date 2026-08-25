@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
     plugins: [react(), tailwindcss()],
-    base: "/app/erm/",      
+    // base: "/app/erm/",      
     resolve: {
         alias: {
             "@": path.resolve(__dirname, "./src"),

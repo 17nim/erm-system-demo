@@ -16,12 +16,12 @@ export default function LoginPage() {
       <div className="grid grid-rows-3 max-w-sm">
         <div className="flex flex-col gap-3">
           <img
-            src="/app/erm/logo-black.svg"
+            src="/logo-black.svg"
             alt="Company Logo"
             className="block dark:hidden select-none pointer-events-none"
           />
           <img
-            src="/app/erm/logo-white.svg"
+            src="/logo-white.svg"
             alt="Company Logo"
             className="hidden dark:block select-none pointer-events-none"
           />

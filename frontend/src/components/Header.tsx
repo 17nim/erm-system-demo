@@ -44,12 +44,12 @@ export default function Header() {
       <div className="flex justify-between w-full">
         <Link to="/" className="flex p-3.5 space-x-3">
           <img
-            src="/app/erm/logo-black.svg"
+            src="/logo-black.svg"
             alt="Company Logo"
             className="block dark:hidden select-none pointer-events-none object-contain"
           />
           <img
-            src="/app/erm/logo-white.svg"
+            src="/logo-white.svg"
             alt="Company Logo"
             className="hidden dark:block select-none pointer-events-none object-contain"
           />
